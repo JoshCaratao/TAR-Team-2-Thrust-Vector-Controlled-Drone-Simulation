@@ -1,7 +1,7 @@
 
 
 %Vehicle Mechanical Properties
-Mass = 5; %kg
+Mass = 1; %kg
 Thrust_Moment_Arm = 0.1; %m\
 
 %Gravity
@@ -18,3 +18,7 @@ Inertia_Tensor = [
     0, 0.25, 0;
     0, 0, 0.25
 ]; %[3x3] matrix that includes principal and products of inertia (kgm^2)
+
+
+%Reference Signal
+z_Reference = 30;
